@@ -37,7 +37,7 @@ const searchState = catchAsync(async (req,res,next)=>{
     .sort()
     .fields()
     .paging();
-  const State = await feature.query;
+  const State = await feature.query.populate("user_id");
   const count = await Stat.countDocuments({});
 
   res.status(200).json({
@@ -49,7 +49,7 @@ const searchState = catchAsync(async (req,res,next)=>{
 });
 
 const getStat = catchAsync(async (req, res, next) => {
-  const stat = await Stat.findById({ _id: req.params.id });
+  const stat = await Stat.findById({ _id: req.params.id }).populate("user_id");
   if (!stat) {
     return next(new AppErorr("There is not stat in this ID", 404));
   }

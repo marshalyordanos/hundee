@@ -11,7 +11,7 @@ const RolePermission = require("../../models/rolepermissionModel");
 
 const getToken = (username) => {
   return jwt.sign({ name: username }, process.env.ACCESS_TOKEN_SECRET, {
-    expiresIn: "3m",
+    expiresIn: "1h",
   });
 };
 
