@@ -175,13 +175,13 @@ const StateList = () => {
       dataIndex: "name",
       render: (text, recored) => {
         return (
-          <NavLink
-            style={{ color: "#2f1dca" }}
-            state={recored}
-            to={`${recored._id}`}
-          >
-            {text}
-          </NavLink>
+          // <NavLink
+          //   style={{ color: "#2f1dca" }}
+          //   state={recored}
+          //   to={`${recored._id}`}
+          // >
+          <> {text}</>
+          // </NavLink>
         );
       },
       sorter: true,
@@ -191,6 +191,9 @@ const StateList = () => {
       title: "user_id",
       dataIndex: "user_id",
       sorter: true,
+      render: (text, recored) => {
+        return <> {recored.user_id?.username}</>;
+      },
     },
   ];
 

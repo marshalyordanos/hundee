@@ -41,7 +41,7 @@ const CommonTable = React.memo(
       <div className="mx-6 border-[1px] border-[#F0F0F0] rounded">
         <div className="common_table">
           <Table
-            scroll={scroll || null}
+            scroll={{ x: "full" }}
             rowSelection={{
               type: rowSelectionType,
               ...rowSelection,
