@@ -1,0 +1,30 @@
+Found console.log() in: src/redux/auth/authSlice.js:
+console.log("mannnnnnnnnnn");
+
+Found console.log() in: src/redux/auth/authSlice.js:
+console.log("mannnnnnnnnnn",res);
+
+Found console.log() in: src/api/token.service.js:
+console.log(JSON.stringify(user)
+
+Found console.log() in: src/api/api.js:
+console.log("token",token)
+
+Found console.log() in: src/api/api.js:
+console.log("******************************************************************************************************")
+
+Found console.log() in: src/api/api.js:
+console.log("err",isreFrasing,originalConfig.url)
+
+Found console.log() in: src/api/api.js:
+console.log("auth",originalConfig.url)
+
+Found console.log() in: src/api/api.js:
+console.log("rs",TokenService.getLocalRefreshToken()
+
+Found console.log() in: src/api/api.js:
+console.log("******************************************************************************************************")
+
+Found console.log() in: src/api/auth.service.js:
+console.log("rrrrr",response)
+

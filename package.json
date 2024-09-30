@@ -1,0 +1,28 @@
+{
+  "name": "mk-talent-v2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run server & npm run client",
+    "server": "cd server && npm run watch",
+    "client": "npm run dev --prefix client",
+    "deploy": "npm run build --prefix client & npm start --prefix server",
+    "test": "npm run test --prefix server && npm run test --prefix client",
+    "deploy-cluster": "npm run build --prefix client & npm run cluster --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirubel624/MK-Talent-V2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirubel624/MK-Talent-V2.0/issues"
+  },
+  "homepage": "https://github.com/Kirubel624/MK-Talent-V2.0#readme",
+  "dependencies": {
+    
+  }
+}

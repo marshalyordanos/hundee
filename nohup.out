@@ -1,0 +1,555 @@
+Purging database...
+Running '/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/4.0.0/mongod' [ 27017, 27018, 27019 ]
+Starting replica set...
+Purging database...
+Running '/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/4.0.0/mongod' [ 27017, 27018, 27019 ]
+Starting replica set...
+Error: Could not start mongod on port 27017 because it is already in use
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/index.js:219:17
+    at Generator.throw (<anonymous>)
+    at onRejected (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/co/index.js:81:24)
+    at tryCatcher (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/async.js:102:5)
+    at Async.drainQueues (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/bluebird/js/release/async.js:15:14)
+    at process.processImmediate (node:internal/timers:475:21)
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/topologies/server.js:431:11)
+    at Pool.emit (node:events:512:28)
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:557:14
+    at /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:39:11
+    at callback (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:261:5)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connect.js:286:7)
+    at Object.onceWrapper (node:events:627:26)
+    at Socket.emit (node:events:512:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+MongoError: no replset config has been received
+    at Connection.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:512:28)
+    at processMessage (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:512:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+  ok: 0,
+  errmsg: 'no replset config has been received',
+  code: 94,
+  codeName: 'NotYetInitialized',
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 0, high_: 0 },
+    signature: { hash: [Binary], keyId: 0 }
+  },
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+Started replica set on "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=rs"
+Running mongo shell: /home/marshal/.nvm/versions/node/v19.6.1/lib/node_modules/run-rs/4.0.0/mongo
